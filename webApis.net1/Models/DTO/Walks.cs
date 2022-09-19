@@ -1,4 +1,4 @@
-﻿namespace webApis.net.Models.Domain
+﻿namespace webApis.net.Models.DTO
 {
     public class Walks
     {
@@ -7,8 +7,5 @@
         public double Length { get; set; }
         public Guid RegionId { get; set; }
         public Guid WalkDifficultyId { get; set; }
-
-        public Region Region { get; set; }
-        public WalkDifficulty WalkDifficulty { get; set; }
     }
 }

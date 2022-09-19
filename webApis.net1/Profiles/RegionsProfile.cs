@@ -8,6 +8,10 @@ namespace webApis.net.Profiles
         {
             CreateMap<Models.Domain.Region, Models.DTO.Region>()
                 .ReverseMap();
+            CreateMap<Models.Domain.Region, Models.DTO.UpdateRegionRequest>()
+                .ReverseMap();
+            CreateMap<Models.Domain.Region, Models.DTO.AddRegionRequest>()
+                .ReverseMap();
         }
     }
 }
